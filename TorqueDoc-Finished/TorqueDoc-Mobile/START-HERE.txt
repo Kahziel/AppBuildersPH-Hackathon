@@ -1,0 +1,45 @@
+TORQUEDOC 1.4.1 — START HERE
+
+Extract the whole ZIP before opening the project.
+
+ANDROID PHONE
+1. Copy output/TorqueDoc-Android.apk to your phone.
+2. Open it in Files and follow Android's installation prompts.
+3. Open TorqueDoc. The bundled manuals, keyword search and original PDF
+   pages work without a computer or a first-run internet connection.
+4. For local AI, open Settings and download the Fast model once using Wi-Fi
+   (about 491 MB). Keep the app open during download. Then use it offline.
+   Start with keyword search if your phone has limited memory.
+
+WINDOWS LAPTOP
+Double-click Start-TorqueDoc.bat. The first setup needs internet; it can
+install Python and the required components. Later starts work offline.
+Use the TorqueDoc desktop shortcut after setup.
+Optional laptop AI: install Ollama, then run setup-model-windows.bat once.
+There is no prebuilt Windows EXE in this package. build-exe.bat builds one
+on a Windows PC if you want a portable desktop application.
+
+READY-BUILT BROWSER VERSION
+The website/dist folder is included. With Python installed, run:
+    python website/preview.py
+Then open http://127.0.0.1:8080 . The browser version can run the small model
+on the laptop itself; no Ollama is needed for that version.
+Do not double-click website/dist/index.html: browser modules need a server.
+For a phone, use the Android APK or an HTTPS host.
+
+TRY THE DEMO
+Select Training rig - TD-01 (fictional).
+Ask: What is the cover bolt torque?
+Open original PDF page 2 and compare the source.
+Ask: What is the coolant capacity?
+The AI path should return no supported answer.
+Try a maintenance note, reload, and confirm that the note remains.
+
+The training manual is fictional. Its values are never for real service.
+The other three documents are saved third-party specification pages.
+Add permitted OEM manuals for actual equipment work.
+
+Included: Android APK, desktop source/launchers, ready-built browser app,
+bundled reference PDFs, tests and instructions.
+Read README.md and VALIDATION.md for the feature scope and measured results.
+Physical Android-phone and Windows execution still need checking on your devices.

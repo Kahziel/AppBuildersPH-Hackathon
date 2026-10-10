@@ -1,0 +1,14 @@
+{
+  "name": "torquedoc-website",
+  "version": "1.4.1",
+  "private": true,
+  "description": "Developer checks for the TorqueDoc website. Building the website needs only Python (website/build.py).",
+  "type": "module",
+  "scripts": {
+    "test:search": "node scripts/search-parity.mjs",
+    "test:ai": "node --test tests/ai_lifecycle.test.mjs"
+  },
+  "devDependencies": {
+    "@sqlite.org/sqlite-wasm": "3.53.4-build2"
+  }
+}

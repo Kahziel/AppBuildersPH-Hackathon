@@ -1,0 +1,72 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct Q4_K_M",
+  "setup": "Real official model bytes from a local test mirror; external requests blocked after setup",
+  "checks": [
+    {
+      "question": "What is the cover bolt torque?",
+      "seconds": 43.78,
+      "status": "supported",
+      "message": "On-device AI selected these original manual passages. Verify applicability and the full procedure on the source page.",
+      "pages": [
+        2
+      ],
+      "run": {
+        "promptChars": 1511,
+        "grammar": false,
+        "raw": "{\"status\":\"supported\",\"passage_ids\":[16]}",
+        "seconds": 43.66520000000018,
+        "usage": {
+          "completion_tokens": 13,
+          "prompt_tokens": 367,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 367,
+          "prompt_ms": 41793.139,
+          "prompt_per_token_ms": 113.8777629427793,
+          "prompt_per_second": 8.781345665373447,
+          "predicted_n": 13,
+          "predicted_ms": 1756.09,
+          "predicted_per_token_ms": 146.34083333333334,
+          "predicted_per_second": 6.833362754756306
+        }
+      }
+    },
+    {
+      "question": "What is the coolant capacity?",
+      "seconds": 0.01,
+      "status": "not_found",
+      "message": "No direct specification for this component was found in the retrieved text. Inspect the original pages or try a more exact component name.",
+      "pages": [],
+      "run": {
+        "preflight": "No direct specification with matching component and units in the retrieved text."
+      }
+    },
+    {
+      "question": "What is the fuel pump torque?",
+      "seconds": 0.01,
+      "status": "not_found",
+      "message": "No direct specification for this component was found in the retrieved text. Inspect the original pages or try a more exact component name.",
+      "pages": [],
+      "run": {
+        "preflight": "No direct specification with matching component and units in the retrieved text."
+      }
+    },
+    {
+      "question": "What is the CAT 320D cover bolt torque?",
+      "seconds": 0.01,
+      "status": "not_found",
+      "message": "No direct specification for this component was found in the retrieved text. Inspect the original pages or try a more exact component name.",
+      "pages": [],
+      "run": {
+        "preflight": "No direct specification with matching component and units in the retrieved text."
+      }
+    }
+  ],
+  "load_seconds": 5.69,
+  "offline_reload_seconds": 3.45
+}

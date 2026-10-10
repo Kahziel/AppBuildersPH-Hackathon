@@ -1,0 +1,12 @@
+{
+  "name": "torquedoc",
+  "version": "1.4.1",
+  "private": true,
+  "description": "Local PDF search and cited on-device AI assistant",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check mvp.js && node --check technical.js && node --check library.js && node --check sw.js",
+    "test:mobile": "node --test website/tests/ai_lifecycle.test.mjs"
+  },
+  "type": "module"
+}

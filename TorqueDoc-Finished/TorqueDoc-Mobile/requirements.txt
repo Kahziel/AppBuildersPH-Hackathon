@@ -1,0 +1,8 @@
+# Versions used for backend verification. Python 3.12 or 3.13. FastAPI selects its matching Starlette.
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+PyMuPDF==1.26.6
+pydantic==2.13.5
+# Desktop app window on Windows (uses the built-in Microsoft Edge WebView2).
+pywebview==5.4; sys_platform == "win32"

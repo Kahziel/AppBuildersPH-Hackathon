@@ -1,0 +1,73 @@
+{
+  "machines": [
+    {
+      "id": "cat",
+      "name": "CAT 320D · Unit-41"
+    },
+    {
+      "id": "deere",
+      "name": "John Deere 850K · Unit-08"
+    },
+    {
+      "id": "volvo",
+      "name": "Volvo EC220D · Unit-16"
+    },
+    {
+      "id": "training",
+      "name": "Training rig · TD-01 (fictional)"
+    }
+  ],
+  "documents": [
+    {
+      "file": "training/Training-Rig-TD01.pdf",
+      "title": "Training Rig TD-01 — fictional test manual",
+      "variant": "TD-01 (fictional)",
+      "revision": "TRAINING R1",
+      "type": "manual"
+    },
+    {
+      "file": "cat/web/caterpillar-320d-specifications-ritchie-specs-third-party.pdf",
+      "title": "Caterpillar 320D specifications (Ritchie Specs, third-party)",
+      "variant": "Caterpillar 320D (third-party spec database; known data errors, verify with OEM)",
+      "revision": "Web page saved 2026-10-10",
+      "type": "web",
+      "url": "https://www.ritchiespecs.com/model/caterpillar-320d-hydraulic-excavator"
+    },
+    {
+      "file": "deere/web/john-deere-850k-specifications-ritchie-specs-third-party.pdf",
+      "title": "John Deere 850K specifications (Ritchie Specs, third-party)",
+      "variant": "John Deere 850K (third-party spec database; known data errors, verify with OEM)",
+      "revision": "Web page saved 2026-10-10",
+      "type": "web",
+      "url": "https://www.ritchiespecs.com/model/john-deere-850k-crawler-tractor"
+    },
+    {
+      "file": "volvo/web/volvo-ec220d-specifications-ritchie-specs-third-party.pdf",
+      "title": "Volvo EC220D specifications (Ritchie Specs, third-party)",
+      "variant": "Volvo EC220D (third-party spec database; known data errors, verify with OEM)",
+      "revision": "Web page saved 2026-10-10",
+      "type": "web",
+      "url": "https://www.ritchiespecs.com/model/volvo-ec220d-hydraulic-excavator"
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://www.ritchiespecs.com/model/caterpillar-320d-hydraulic-excavator",
+      "machine": "cat",
+      "title": "Caterpillar 320D specifications (Ritchie Specs, third-party)",
+      "variant": "Caterpillar 320D (third-party spec database; known data errors, verify with OEM)"
+    },
+    {
+      "url": "https://www.ritchiespecs.com/model/john-deere-850k-crawler-tractor",
+      "machine": "deere",
+      "title": "John Deere 850K specifications (Ritchie Specs, third-party)",
+      "variant": "John Deere 850K (third-party spec database; known data errors, verify with OEM)"
+    },
+    {
+      "url": "https://www.ritchiespecs.com/model/volvo-ec220d-hydraulic-excavator",
+      "machine": "volvo",
+      "title": "Volvo EC220D specifications (Ritchie Specs, third-party)",
+      "variant": "Volvo EC220D (third-party spec database; known data errors, verify with OEM)"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* Phone app: the library is built in, so adding or editing documents happens on the laptop. */
+.is-web [data-action="import-documents"], .is-web [data-action="add-web"], .is-web [data-action="edit-manual"],
+.is-web [data-action="delete-manual"], .is-web [data-action="update-manual"], .is-web [data-action="index-legacy"],
+.is-web [data-action="delete-legacy"], .is-web [data-action="scan-document"], .is-web .library-drop-zone,
+.is-web .open-pdf, .is-web [data-action="voice"] { display: none !important; }
+.is-web .mobile-nav { padding-bottom: env(safe-area-inset-bottom); }
+.is-web .topbar { padding-top: env(safe-area-inset-top); }
+.ai-models { display: grid; gap: 10px; margin: 10px 0 4px; }
+.ai-model { display: flex; gap: 12px; align-items: flex-start; padding: 12px; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+.ai-model input { margin-top: 3px; width: 20px; height: 20px; accent-color: var(--amber); flex: none; }
+.ai-model strong { display: block; } .ai-model small { color: var(--muted); display: block; margin-top: 3px; }
+.ai-progress { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 10px; }
+.ai-progress i { display: block; height: 100%; background: var(--amber); transition: width .3s; }
+.ai-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.is-android { overscroll-behavior: none; }
+.is-android .is-web .topbar { padding-top: 0; }
+.is-android .is-web .mobile-nav { padding-bottom: 0; }
+@media (max-width:680px) {
+  .is-android button, .is-android .button, .is-android select { min-height:48px; }
+  .is-android .query-box input { font-size:16px; }
+  .is-android .modal { max-height:calc(100dvh - 24px); }
+}

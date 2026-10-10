@@ -1,0 +1,23 @@
+{
+  "apk": "TorqueDoc-Android.apk",
+  "version": "1.4.1",
+  "version_code": 141,
+  "package": "com.torquedoc.app",
+  "min_android": 9,
+  "bytes": 10406110,
+  "sha256": "65a90d435220ddb30e37b3bce1d3ce82a8e2cdbd40a642f5e8d62d6ce7f65cf6",
+  "signing": "original project development key; sideload/testing",
+  "bundled_files": 242,
+  "library": {
+    "built_at": "2026-10-10T00:44:46+00:00",
+    "documents": 4,
+    "pages": 21,
+    "machines": [
+      "cat",
+      "deere",
+      "volvo",
+      "training"
+    ],
+    "errors": []
+  }
+}

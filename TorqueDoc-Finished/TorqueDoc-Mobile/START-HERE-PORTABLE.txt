@@ -1,0 +1,30 @@
+TORQUEDOC - PORTABLE APP
+
+1. Unzip TorqueDoc-portable.zip to a normal folder, for example Documents.
+   Do not run it from inside the zip.
+2. Double-click TorqueDoc.exe in the TorqueDoc folder.
+   Nothing else needs to be installed. It works offline.
+   Tip: right-click TorqueDoc.exe > Show more options > Send to > Desktop
+   (create shortcut) to get an icon on your desktop.
+
+The first time, Windows may say "Windows protected your PC" because the
+app is not signed by a company. Click "More info", then "Run anyway".
+
+Closing the TorqueDoc window stops it.
+
+MANUALS
+Built-in manuals and saved web pages are in the "library" folder next to
+TorqueDoc.exe. See library\README.txt to add more; restart TorqueDoc
+afterwards. Newer revisions can also be added inside the app with
+"Add an update". Your notes and updates are kept in the "data" folder.
+To move to a new version, copy your "data" folder into the new TorqueDoc
+folder.
+
+LOCAL AI ANSWERS (optional)
+Keyword search works right away. For AI-selected answers, install Ollama
+from ollama.com and run once, while online:  ollama pull qwen3:4b
+
+SAFETY
+Always open the cited page and check that it applies to your exact machine.
+Web pages are labeled "Web" and are not manufacturer documentation. The
+Training rig manual is fictional and must never be used for real work.
